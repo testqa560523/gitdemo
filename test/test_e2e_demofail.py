@@ -43,6 +43,7 @@ class Testone(Baseclass):  #we don't have to explicitly write use fixtures as on
         successText = confirmpage.getalert().text
         #adding this intentionally fail the test to see screenshot of failure.
         #assert use for assertion
+        #modified again ......
         assert "Success! Thansssssssssssk you!" in successText #test will fail because of assertion error.
         log.info("Successfully placed order............")
         self.driver.get_screenshot_as_file("screen.png")  # To get screenshots
