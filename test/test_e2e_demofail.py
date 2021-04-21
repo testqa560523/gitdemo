@@ -36,7 +36,7 @@ class Testone(Baseclass):  #we don't have to explicitly write use fixtures as on
         confirmpage.getcountryfield().send_keys("ind")
         #to give explicit wait and choose "India" from dropdown
         self.verifylinkpresent("India") #wait and verify India is present in link test or not
-
+      #clicking on buttons....
         confirmpage.getdropdown().click()
         confirmpage.getcheckbox().click()
         confirmpage.getpurchase().click()
