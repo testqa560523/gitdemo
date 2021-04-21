@@ -10,6 +10,7 @@ from pageobjects.CheckOutPage import CheckOutPage
 from pageobjects.ConfirmPage import ConfirmPage
 from pageobjects.HomePage import HomePage
 from utilities.BaseClass import Baseclass
+#demo for e2e
 
 class Testone(Baseclass):  #we don't have to explicitly write use fixtures as once we mentioned it in
     def test_e2e(self):
