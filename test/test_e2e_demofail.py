@@ -44,7 +44,9 @@ class Testone(Baseclass):  #we don't have to explicitly write use fixtures as on
         #adding this intentionally fail the test to see screenshot of failure.
         #assert use for assertion
         #modified again ......
+        #modified in demo develop
         assert "Success! Thansssssssssssk you!" in successText #test will fail because of assertion error.
         log.info("Successfully placed order............")
+        log.info("Successfully completed test case....congratulations")
         self.driver.get_screenshot_as_file("screen.png")  # To get screenshots
 
