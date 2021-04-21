@@ -41,7 +41,7 @@ class Testone(Baseclass):  #we don't have to explicitly write use fixtures as on
         confirmpage.getcheckbox().click()
         confirmpage.getpurchase().click()
         successText = confirmpage.getalert().text
-        assert "Success! Thank you!" in successText
+        assert "Success! Thansssssssssssk you!" in successText #test will fail because of assertion error.
         log.info("Successfully placed order............")
         self.driver.get_screenshot_as_file("screen.png")  # To get screenshots
 
